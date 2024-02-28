@@ -2,6 +2,21 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+.goUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  background-color: green;
+  font-size: 12px;
+  border: solid 2px #eee;
+  z-index: 555;
+}
+
 /* Hero Section */
 
 #Hero-Section {
@@ -32,7 +47,7 @@ body {
     font-weight: 400;
   }
 
-  .navbar-brand{
+  .navbar-brand {
     width: 100px;
   }
 
